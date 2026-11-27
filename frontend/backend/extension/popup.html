@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dark Scan</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Dark Scan</h1>
+      <p>Dark pattern detector</p>
+    </header>
+
+    <button id="scanBtn">Scan this page</button>
+    <p id="status" class="status">Open a shopping page, then click Scan.</p>
+
+    <section id="result" hidden>
+      <div class="gauge-wrap">
+        <svg viewBox="0 0 120 120" class="gauge">
+          <circle class="track" cx="60" cy="60" r="54"></circle>
+          <circle id="arc" class="arc" cx="60" cy="60" r="54"></circle>
+        </svg>
+        <div class="gauge-text">
+          <span id="scoreNum">0</span><span class="pct">%</span>
+        </div>
+      </div>
+
+      <div id="level" class="level"></div>
+      <p id="summary" class="summary"></p>
+
+      <div id="patterns"></div>
+
+      <button id="clearBtn" class="secondary">Clear highlights</button>
+    </section>
+
+    <footer>Rule-based indicators, not proof of deceptive design.</footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

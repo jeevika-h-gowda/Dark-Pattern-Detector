@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Pattern Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dark Pattern Detector</h1>
+        <p>Browse smarter. Detect deceptive website designs.</p> 
+    </header>
+
+    <main>
+        <section class="scanner">
+            <h2>Scan a Website</h2>
+            <p>Enter a website URL to check for dark patterns.</p>
+
+            <input
+                type="url"
+                id="websiteUrl"
+                placeholder="https://example.com"
+            >
+
+            <button id="scanButton">Scan Website</button>
+
+            <div id="results">
+                <h3>Scan Results</h3>
+                <p id="resultMessage">
+                    Your results will appear here.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Dark Pattern Detection System | Mini Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

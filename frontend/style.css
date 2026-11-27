@@ -1,0 +1,295 @@
+/* GENERAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0b1020;
+    color: #f1f5f9;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 45px 20px;
+    background: linear-gradient(135deg, #171b38, #30205b);
+    border-bottom: 1px solid #37345e;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+
+header p {
+    margin-top: 10px;
+    color: #c4b5fd;
+    font-size: 16px;
+}
+
+/* MAIN SECTION */
+main {
+    max-width: 900px;
+    margin: 55px auto;
+    padding: 0 20px;
+}
+
+.scanner {
+    background: #151c30;
+    padding: 40px;
+    border-radius: 18px;
+    border: 1px solid #303b59;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.scanner h2 {
+    font-size: 26px;
+    color: #c4b5fd;
+    margin-bottom: 10px;
+}
+
+.scanner > p {
+    color: #a8b3c7;
+    margin-bottom: 25px;
+}
+
+/* URL INPUT */
+input[type="url"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #46516d;
+    border-radius: 9px;
+    background: #0b1223;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 18px;
+}
+
+input[type="url"]:focus {
+    border-color: #a78bfa;
+    box-shadow: 0 0 0 3px rgba(167, 139, 250, 0.15);
+}
+
+input::placeholder {
+    color: #78849b;
+}
+
+/* SCAN BUTTON */
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 9px;
+    background: linear-gradient(135deg, #7c3aed, #6366f1);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #6d28d9, #4f46e5);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.25);
+}
+
+/* RESULTS SECTION */
+#results {
+    margin-top: 35px;
+    padding: 25px;
+    border-radius: 12px;
+    background: #0d1528;
+    border: 1px solid #303b59;
+}
+
+#results h3 {
+    color: #c4b5fd;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+#resultMessage {
+    color: #a8b3c7;
+    font-size: 15px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #8491a8;
+    font-size: 13px;
+    border-top: 1px solid #263149;
+    margin-top: 60px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 27px;
+    }
+
+    .scanner {
+        padding: 25px 18px;
+    }
+
+    main {
+        margin: 30px auto;
+    }
+}/* GENERAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0b1020;
+    color: #f1f5f9;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 45px 20px;
+    background: linear-gradient(135deg, #171b38, #30205b);
+    border-bottom: 1px solid #37345e;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+
+header p {
+    margin-top: 10px;
+    color: #c4b5fd;
+    font-size: 16px;
+}
+
+/* MAIN SECTION */
+main {
+    max-width: 900px;
+    margin: 55px auto;
+    padding: 0 20px;
+}
+
+.scanner {
+    background: #151c30;
+    padding: 40px;
+    border-radius: 18px;
+    border: 1px solid #303b59;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.scanner h2 {
+    font-size: 26px;
+    color: #c4b5fd;
+    margin-bottom: 10px;
+}
+
+.scanner > p {
+    color: #a8b3c7;
+    margin-bottom: 25px;
+}
+
+/* URL INPUT */
+input[type="url"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #46516d;
+    border-radius: 9px;
+    background: #0b1223;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 18px;
+}
+
+input[type="url"]:focus {
+    border-color: #a78bfa;
+    box-shadow: 0 0 0 3px rgba(167, 139, 250, 0.15);
+}
+
+input::placeholder {
+    color: #78849b;
+}
+
+/* SCAN BUTTON */
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 9px;
+    background: linear-gradient(135deg, #7c3aed, #6366f1);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #6d28d9, #4f46e5);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.25);
+}
+
+/* RESULTS SECTION */
+#results {
+    margin-top: 35px;
+    padding: 25px;
+    border-radius: 12px;
+    background: #0d1528;
+    border: 1px solid #303b59;
+}
+
+#results h3 {
+    color: #c4b5fd;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+#resultMessage {
+    color: #a8b3c7;
+    font-size: 15px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #8491a8;
+    font-size: 13px;
+    border-top: 1px solid #263149;
+    margin-top: 60px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 27px;
+    }
+
+    .scanner {
+        padding: 25px 18px;
+    }
+
+    main {
+        margin: 30px auto;
+    }
+}
